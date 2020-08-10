@@ -4,6 +4,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="controlenotas">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>projeto.ControleNotas.Model.Aluno</class>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://baac8e4ff0282d:850da050@us-cdbr-east-02.cleardb.com/heroku_ea432e9a77cce4b?reconnect=true"/>
